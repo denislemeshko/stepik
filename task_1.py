@@ -19,4 +19,4 @@ with open("answer.txt", "w", encoding="utf-8") as out:
             average = classes[grade][0] / classes[grade][1]
             out.write(f"{grade} {average}\n")
         else:
-            out.write(f"{grade} -\n")
+            out.write(f"{grade} -\n") 
